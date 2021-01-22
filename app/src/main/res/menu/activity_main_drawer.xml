@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ratecard"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="पदार्थांची किमत(अंदाजे)" />
+        <item
+            android:id="@+id/nav_Aboutus"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title=" About Us" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="Rating" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Share" />
+
+        <item android:title="------------Communicate----------------">
+            <menu>
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@android:drawable/sym_action_chat"
+                    android:title="feedback" />
+
+
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@android:drawable/ic_menu_call"
+                    android:title="Contact" />
+
+                <!--android:icon="@drawable/ic_menu_send"-->
+
+            </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/nav_close"
+        android:icon="@android:drawable/ic_menu_revert"
+            android:title="Close" />
+
+
+
+    </group>
+
+
+
+</menu>

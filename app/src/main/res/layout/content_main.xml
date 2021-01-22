@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diback"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hp.annapurnayogna.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/diback"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@mipmap/logo1" />
+
+        <LinearLayout
+            android:layout_width="147dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:text="अन्नपूर्णा योजना"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="22dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="159dp"
+                android:layout_height="34dp"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:text='"अन्न हेच परब्रम्ह"'
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="18dp"
+                android:typeface="monospace" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:background="@drawable/diback"
+            android:padding="6dp"
+            android:text="पुर्ण  नाव   :"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phoneno"
+            android:layout_width="385dp"
+            android:layout_height="39dp"
+            android:layout_gravity="left"
+            android:background="@drawable/diback"
+            android:padding="5dp"
+            android:text="मोबाइल न.:"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="386dp"
+            android:layout_height="36dp"
+            android:layout_gravity="left"
+            android:background="@drawable/diback"
+            android:padding="5dp"
+            android:text="पत्ता (शहर):"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/send_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:background="@drawable/diback"
+            android:gravity="top"
+            android:text="*"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|center_vertical"
+        android:background="@drawable/diback"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:text="total" />
+
+        <Button
+            android:id="@+id/btn_dailyreport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:text="Daily View" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

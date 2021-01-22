@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/diback"
+    tools:context="com.example.hp.annapurnayogna.UserInfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="366dp"
+                android:layout_height="114dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@mipmap/logo1"
+                    android:paddingTop="20dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="268dp"
+                    android:layout_height="67dp"
+                    android:gravity="top"
+                    android:paddingTop="10dp"
+                    android:text=" User Information"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="46dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_pname"
+                        android:ems="10" />
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="309dp"
+                        android:layout_height="wrap_content"
+                        android:hint=" नाव (पुर्ण):"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="46dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_phn1"
+                        android:ems="10" />
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="381dp"
+                        android:layout_height="wrap_content"
+                        android:hint="मोबाइल नंबर:"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="46dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_add"
+                        android:ems="10" />
+
+                    <EditText
+                        android:id="@+id/addrs"
+                        android:layout_width="309dp"
+                        android:layout_height="wrap_content"
+                        android:hint="पत्ता (शहर):"
+                        android:inputType="textLongMessage"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="30sp"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    android:text="Save" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tagline"
+                android:layout_width="355dp"
+                android:layout_height="50dp"
+                android:text="अन्न हेच परभ्रमं...!!"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

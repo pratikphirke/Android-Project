@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.annapurnayogna.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/action_additem"
+        android:orderInCategory="100"
+        android:title="@string/action_additem"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_About_us"
+        android:orderInCategory="100"
+        android:title="@string/action_aboutus"
+        app:showAsAction="never" />-->
+</menu>

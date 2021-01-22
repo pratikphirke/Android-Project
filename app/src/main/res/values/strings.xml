@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">अन्नपूर्णा योजना</string>
+    <string name="action_settings">सेटिंग</string>
+    <string name="action_additem">रेट कार्ड</string>
+    <string name="action_aboutus">About us </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- <string name="action_updateitem">पोळी</string>
+    <string name="action_updateitem">भाजी</string>
+    <string name="action_updateitem">भात</string>
+    <string name="action_updateitem">वरण</string>
+    <string name="action_updateitem">एकुण</string>-->
+</resources>

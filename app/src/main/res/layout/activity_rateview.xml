@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/diback"
+    android:gravity="center"
+    tools:context="com.example.hp.annapurnayogna.RateViewActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="अॅप्लिकेशनला तुमचा प्रमाणे रेटिंग करा"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingbar"
+        />
+    <TextView
+        android:id="@+id/tvRateCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="तुमचा प्रमाणे : "
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tvRateMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/ratesubmit"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@android:drawable/dialog_holo_light_frame"/>
+
+
+</LinearLayout>
